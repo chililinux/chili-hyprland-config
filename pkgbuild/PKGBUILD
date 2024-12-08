@@ -1,14 +1,14 @@
 # Maintainer: Vilmar Catafesta <vcatafesta@gmail.com>
 
-pkgname=chili-pkgname
-pkgdesc="Package template for Chililinux"
-#depends=('')
+pkgname=chili-hyprland-config
+pkgdesc="Package configuration Desktop HYPRLAND for ChiliLinux"
+depends=('chili-skel')
 #makedepends=('')
 #optdepends=('')
-#conflicts=('')
+conflicts=('big-skel' 'bashrc-manjaro')
 #provides=('')
 #replaces=('')
-pkgver=$(date +%Y%m%d)
+pkgver=$(date +%y.%m.%d)
 pkgrel=$(date +%H%M)
 arch=('any')
 license=('MIT')
