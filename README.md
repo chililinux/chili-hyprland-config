@@ -1,3 +1,3 @@
-# chili-pkgbuild-template
+# chili-hyprland-config
 
 Template for Chili Linux packages
